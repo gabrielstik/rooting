@@ -1,5 +1,5 @@
-# rooting-multilang
+# rooting
 Rooting file with multilanguage support
 
-### Requirements
+## Requirements
 * PHP 5.4.0
