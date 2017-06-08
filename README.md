@@ -38,15 +38,14 @@ You might have :
 
 _Note that if you want to make this parameter as default for all your virtual hosts, you have to do this changes on_ `/etc/apache2/apache2.conf` _file._
 
+Then apply : `sudo service apache2 restart`.
+
 #### SSL Issues
 If your website is in https, you might have 2 _.conf_ files :
 * mywebsite.conf
 * mywebsite-xx-ssl.conf
 
-All you need is do the same changes on the ssl _.conf_ file
-
-
-Then apply : `sudo service apache2 restart`.
+All you need is do the same changes on the ssl _.conf_ file and don't forget to apply.
 
 ## Usage
 Comming soon
