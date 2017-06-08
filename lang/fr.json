@@ -1,144 +1,19 @@
 {
   "titles": {
-    "home": "Le Tacos français depuis 2007",
-    "menu": "Le O'Menu",
-    "restaurants": "Où manger nos délicieux O'Tacos ?",
-    "histoire": "Notre histoire : née au coeur des Alpes françaises",
-    "franchise": "Comment devenir franchisé ?",
-    "legals": "Mentions légales et conditions d'utilisation",
-    "404": "Oups, cette page n'existe pas",
-    "admin": "Espace administrateur"
-  },
-  "header": {
-    "tabs": [
-      "Accueil",
-      "La carte",
-      "Nos restaurants",
-      "Histoire",
-      "Devenir franchisé"
-    ]
+    "home": "Rooting",
+    "about": "A propos",
+    "contact": "Me contacter"
   },
   "home": {
-    "h1": "UN CONCEPT ORIGINAL CRÉÉ AU COEUR DES ALPES",
-    "p1": "Créée en 2007, O’Tacos est la première chaîne de restaurants #FrenchTacos.",
-    "p2": "Dans chaque O'Tacos, retrouvez notre recette originale de sauce fromagère et choisissez parmi 5 viandes certifiées HALAL, rigoureusement sélectionnées pour leur qualité premium.",
-    "p3": "Pour satisfaire tout le monde, nous avons créé des otacos de toutes les tailles, allant même jusqu’à 2,500kg pour les plus courageux.",
-    "menuLink": "Voir la carte",
-    "histoireLink": "Notre histoire",
-    "promos": {
-      "else": "Il n'y a pas encore de promotions dans votre pays..."
-    }
+    "h1": "Bienvenue sur mon site internet"
   },
-  "menu": {
-    "h1": "FAIS TOI TA PROPRE",
-    "video": "Regarde la vidéo :",
-    "steps": [
-      "Choisissez votre O'Taocs",
-      "Choisissez vos viandes",
-      "Choisissez vos sauces",
-      "Choisissez vos extras"
-    ],
-    "sidesteps": [
-      "PAIN",
-      "VIANDES",
-      "SAUCES",
-      "EXTRAS"
-    ],
-    "meat": [
-      "Viande hâchée",
-      "Escalope",
-      "Nuggets",
-      "Merguez",
-      "Tenders",
-      "Cordon Bleu"
-    ],
-    "sauce": [
-      "Ketchup",
-      "Mayonnaise",
-      "Algérienne",
-      "Harissa",
-      "Barbecue",
-      "Samouraï",
-      "Burger",
-      "Chili",
-      "Giga"
-    ],
-    "extras": [
-      "Cheddar",
-      "Raclette",
-      "Boursin",
-      "Chèvre",
-      "Mozzarella",
-      "Oeuf",
-      "Vache Qui Rit",
-      "Salami",
-      "Jambon",
-      "Lardon",
-      "Bacon",
-      "Blancs",
-      "Champignons",
-      "Poivrons"
-    ]
+  "about": {
+    "h1": "Voici des informations à propos de mon site"
   },
-  "restaurants": {
-    "h1": "Où déguster nos délicieux O'Tacos",
-    "search": "Entre un lieu"
+  "contact": {
+    "h1": "Vous pouvez me contacter ici"
   },
-  "franchise": {
-    "h1": "Pourquoi rejoindre O'Tacos ?",
-    "seemore": "En savoir plus",
-    "h2": "Caractéristiques du réseau",
-    "caracteristics": [
-      "Un savoir-faire éprouvé depuis 2007",
-      "Une marque forte",
-      "Une recherche d'innovation continue",
-      "Un réel partenariat gagnant-gagnants avec nos partenaires"
-    ],
-    "years": [
-      "2007",
-      "2010",
-      "2013",
-      "2015",
-      "2016",
-      "2017"
-    ],
-    "yearsdesc": [
-      "Idée venue des Alpes : Grenoble",
-      "Développement augmentation de la notorieté",
-      "Restructure : 92% de satisfaction, création de comptes sur les réseaux sociaux : 36 000 fans en un mois",
-      "Ouverture de de 21 restaurants en France",
-      "Optimisation du savoir-faire, objectif : 5 restaurants à l'international",
-      "200 restaurants dans le monde, optimisation des coûts, nouvelle centrale d'achat, master franchisés, 1000000 fans"
-    ],
-    "argLeft": {
-      "h1": "Rejoindre le réseau O'tacos c'est :",
-      "args": [
-        "Notoriété de la marque O'tacos",
-        "Produits de qualité",
-        "Investissement modéré",
-        "Rentabilité exceptionelle",
-        "Bénéfice d'une centrale d'achat",
-        "Savoir-faire reconnu depuis 2007",
-        "Centre de formation métier O'Tacos",
-        "Assitance technique, commerciale et juridique",
-        "Campagnes de publicité locale et nationale",
-        "Rentabilité exceptionelle",
-        "Manuels du savoir-faire et opératoires détaillés"
-      ]
-    },
-    "argRight": {
-      "h1": "Zoom sur la communication O'tacos",
-      "p1": "Notre service communication oeuvre chaque jour à développer la notoriété de la marque et du réseau O'Tacos avec des résultats exceptionnels sur les réseaux sociaux avec plus de 1.0000.000 de fans sur Facebook, des spots TV sur m6, des campagnes locales, un marketing puissant porté par par des nombreux ambassadeurs de la marque.",
-      "p2": "Véritable interface entre le franchiseur et les franchisés O'Tacos, l'animateur occupe un poste complet et primordiale dans le réseau. Garant du concept, initiateur du dialogue et du dynamisme au sein du réeau, il doit jongler en permanence avec les attentes de chacun en ayant pour objectif principal la réussite individuelle et collective de ses membres."
-    },
-    "button": "Rejoignez-nous !"
-  },
-  "footer": {
-    "rights": "Tous droits réservés",
-    "legals": "Mentions légales",
-    "warning": "Pour votre santé, pratiquez une activité physique régulière"
-  },
-  "legals": {
-    "else": "Pour voir les mentions légales dans votre pays, contactez un administrateur :"
+  "404": {
+    "h1": "404, cette page n'existe pas"
   }
 }

@@ -1,144 +1,19 @@
 {
   "titles": {
-    "home": "The French Tacos since 2007",
-    "menu": "The O'Menu",
-    "restaurants": "Our restaurants",
-    "histoire": "Our story : born in the French Alps",
-    "franchise": "How to become a franchisee ?",
-    "legals": "Legals and terms of use",
-    "404": "Sorry, this page does not exist",
-    "admin": "Administration"
-  },
-  "header": {
-    "tabs": [
-      "Home",
-      "Menu",
-      "Where to find us",
-      "Our Story",
-      "Become a Franchisee"
-    ]
+    "home": "Rooting",
+    "about": "About",
+    "contact": "Contact"
   },
   "home": {
-    "h1": "AN ORIGINAL CONCEPT CREATED IN THE HEART OF FRENCH ALPS",
-    "p1": "Created in 2007, O'Tacos is the first #FrenchTacos restaurant chain.",
-    "p2": "In every O'Tacos, find our original cheese sauce recipe and choose among our 5 HALAL certified meats, rigorously chosen for their premium quality.",
-    "p3": "To satisfy each and every, we have created O'Tacos of all sizes, weighing as heavy as 2.500kg for the bravest.",
-    "menuLink": "See the menu",
-    "histoireLink": "Our story",
-    "promos": {
-      "else": "There is not any promotions in your country for now..."
-    }
+    "h1": "Welcome to my website"
   },
-  "menu": {
-    "h1": "MAKE YOUR OWN",
-    "video": "See video :",
-    "steps": [
-      "Chose your O'Taocs",
-      "Chose your meats",
-      "Chose your sauces",
-      "Chose your extras"
-    ],
-    "sidesteps": [
-      "Bread",
-      "Meats",
-      "Sauces",
-      "Extras"
-    ],
-    "meat": [
-      "Minced meat",
-      "Escalope",
-      "Nuggets",
-      "Merguez",
-      "Tenders",
-      "Cordon Bleu"
-    ],
-    "sauce": [
-      "Ketchup",
-      "Mayonnaise",
-      "Algerian",
-      "Harissa",
-      "Barbecue",
-      "Samouraï",
-      "Burger",
-      "Chili",
-      "Giga"
-    ],
-    "extras": [
-      "Cheddar",
-      "Squeegee",
-      "Boursin",
-      "Goat cheese",
-      "Mozzarella",
-      "Egg",
-      "Vache Qui Rit",
-      "Salami",
-      "Ham",
-      "Lardon",
-      "Bacon",
-      "Chicken breasts",
-      "Mushrooms",
-      "Peppers"
-    ]
+  "about": {
+    "h1": "Here is information about the website"
   },
-  "restaurants": {
-    "h1": "Where to eat our delicious O'Tacos",
-    "search": "Enter a location"
+  "contact": {
+    "h1": "You can contact me from here"
   },
-  "franchise": {
-    "h1": "Why join O'Tacos ?",
-    "seemore": "See more",
-    "h2": "Characteristics of the network",
-    "caracteristics": [
-      "A proven know-how since 2007",
-      "A strong brand",
-      "A never ending search for inovation",
-      "A real win-win agreement with our partners"
-    ],
-    "years": [
-      "2007",
-      "2010",
-      "2013",
-      "2015",
-      "2016",
-      "2017"
-    ],
-    "yearsdesc": [
-      "Idea coming from Grenoble in the french alps",
-      "Developpement, increasing brand awareness",
-      "Restructuring : 92% customer satisfaction, presence on social medias : 36 000 fans in a month",
-      "Opening of 21 restaurants across France",
-      "Optimization of our expertise, goal : 5 restaurants à l'international",
-      "200 restaurants in the world, cost optimization, new central purchasing center, Franchisee masters, 1000000 fans"
-    ],
-    "argLeft": {
-      "h1": "Joining O'Tacos's network means:",
-      "args": [
-        "O'Tacos's brand awareness",
-        "Quality products",
-        "Moderate investment",
-        "Exceptional profitability",
-        "Central purchasing",
-        "An established expertise since 2007",
-        "O'Tacos Training center",
-        "Technical, commercial and legal assistance",
-        "Local and national publicty campaigns",
-        "Rentabilité exceptionelle",
-        "Detailed operations and expertise guides"
-      ]
-    },
-    "argRight": {
-      "h1": "Zoom on O'Tacos's communication",
-      "p1": "Our communication department works every day to develop the reputation of our brand and the O'Tacos network with exceptional results on social networks with more than 1.0000.000 fans on Facebook, m6 TV spots, local campaigns, and marketing, powerfully carried by many ambassadors of the brand.",
-      "p2": "A true interface between the franchisee and the O'Tacos franchisees, the network animator occupies a complete and essential position in the network, responsible for the upholding of the concept, he is initiator of dialogue and dynamism within the network, he must constantly juggle with everyone's expectations having the main objective of obtaining the individual and collective success of its members."
-    },
-    "button": "Join us !"
-  },
-  "footer": {
-    "rights": "All rights reserved",
-    "legals": "Legals",
-    "warning": "For your health, practice regular physical activity"
-  },
-  "legals": {
-    "else": "To see the reglementation in your country, please contact an administrator:"
+  "404": {
+    "h1": "404, page not found"
   }
 }

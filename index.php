@@ -5,14 +5,14 @@ $locallang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 
 function setLang($lang) {
 	switch ($lang) {
-	case "fr":
-		$_SESSION['lang'] = $lang;
-		$lang_file = file_get_contents('lang/fr.json');
-		break;
 	case "en":
 		$_SESSION['lang'] = $lang;
 		$lang_file = file_get_contents('lang/en.json');
 		break;
+	case "fr":
+		$_SESSION['lang'] = $lang;
+		$lang_file = file_get_contents('lang/fr.json');
+			break;
 	default:
 		$lang_file = file_get_contents('lang/en.json');
 		break;
@@ -22,6 +22,9 @@ function setLang($lang) {
 
 if (isset($_SESSION['lang'])) {
 	$lang_file = setLang($_SESSION['lang']);
+}
+else {
+	setLang($locallang);
 }
 $lang_array = json_decode($lang_file, true);
 
