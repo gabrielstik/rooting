@@ -140,4 +140,13 @@ The content is called in HTML this way :
 ```
 Use the .json file in your way according to your project.
 
+## Advantages
+* Pretty URLs
+* PHP textual rooting does not affect SEO
+* Don't need a three for each language
+* Easy to find and modify textual content
+* Easy to deal with a custom CMS
+
+***
+
 Thank you ! :thumbsup:
