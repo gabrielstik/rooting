@@ -45,6 +45,7 @@ If your website is in https, you might have 2 _.conf_ files :
 
 All you need is do the same changes on the ssl _.conf_ file
 
+
 Then apply : `sudo service apache2 restart`.
 
 ## Usage
