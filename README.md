@@ -70,8 +70,11 @@ default:
 ```
 
 *$q* is the string after the first slash in your URL.
+
 _Example : 'mywebsite.com/about', $q is 'about'._
+
 You can also cumulate slashes.
+
 _Example : 'mywebsite.com/articles/make-our-planet-great-again', $q is 'articles/make-our-planet-great-again'._
 
 To add a rooting page, add a *case* in that *switch*.
