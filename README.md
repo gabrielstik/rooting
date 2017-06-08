@@ -2,7 +2,7 @@
 Custom rooting process including language management
 
 ## Features
-* Clean URL
+* Clean URLs
 * Language management
 
 ## Requirements
