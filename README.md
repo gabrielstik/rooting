@@ -48,6 +48,35 @@ If your website is in https, you might have 2 _.conf_ files :
 All you need is do the same changes on the ssl _.conf_ file and don't forget to apply.
 
 ## Usage
-Comming soon
+
+`index.php` in your root directory is the file that contains rooting datas.
+
+### URL rooting
+```php
+switch($q) {
+case '':
+	$page = 'home';
+	break;
+case 'about':
+	$page = 'about';
+	break;
+case 'contact':
+	$page = 'contact';
+	break;
+default:
+	$page = '404';
+	break;
+}
+```
+
+*$q* is the string after the first slash in your URL.
+_Example : 'mywebsite.com/about', $q is 'about'._
+You can also cumulate slashes.
+_Example : 'mywebsite.com/articles/make-our-planet-great-again', $q is 'articles/make-our-planet-great-again'._
+
+To add a rooting page, add a *case* in that *switch*.
+*$page* will be the name of your $page.php. _Note than $page can be $q._
+
+
 
 Thank you ! :thumbsup:
