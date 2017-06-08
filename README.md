@@ -17,20 +17,20 @@ No installation required, just use your favorite AMP software
 _The **.htaccess** file need to be allowed to rewrite your host's one and as a result make your website rootable._
 
 On Apache, find your website's _.conf_ file and find these lines :
-````<Directory>
+```<Directory>
   Options Indexes FollowSymLinks
   AllowOverride None
   Require all granted
-</Directory>````
+</Directory>```
 
 and change `AllowOverride None` into `AllowOverride All`.
 
 You might have :
-````<Directory>
+```<Directory>
   Options Indexes FollowSymLinks
   AllowOverride All
   Require all granted
-</Directory>````
+</Directory>```
 
 _Note that if you want to make this parameter as default for all your virtual hosts, you have to do this changes on_ `/etc/apache2/apache2.conf` _file._
 
