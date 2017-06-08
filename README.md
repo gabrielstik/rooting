@@ -78,8 +78,66 @@ You can also cumulate slashes.
 _**Example :** 'mywebsite.com/articles/make-our-planet-great-again', $q is 'articles/make-our-planet-great-again'._
 
 To add a rooting page, add a **case** in that **switch**.
-**$page** will be the name of your **$page.php**. _Note than $page can be **$q**._
+**$page** will be the name of your **$page.php**. _Note than **$page** can be **$q**._
 
+### Languages files rooting
 
+#### In index.php
+The **setLang($lang)** function has to root the file in terms of the **$lang** variable.
+By default, **$lang** is the language of your browser.
+The language is pushed in a session to be kept for all your navigation.
+
+```php
+function setLang($lang) {
+	$_SESSION['lang'] = $lang;
+	switch ($lang) {
+	case "en":
+		$lang_file = file_get_contents('lang/en.json');
+		break;
+	case "fr":
+		$lang_file = file_get_contents('lang/fr.json');
+			break;
+	default:
+		$lang_file = file_get_contents('lang/en.json');
+		break;
+	}
+	return $lang_file;
+}
+```
+
+To add a language file, add a **case** in that **switch**, where **$lang_file** is the content of your language _.json_ file.
+
+#### .json file structure
+_en.json_ sample
+```json
+{
+  "titles": {
+    "home": "Rooting",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "home": {
+    "h1": "Welcome to my website"
+  },
+  "about": {
+    "h1": "Here is information about the website"
+  },
+  "contact": {
+    "h1": "You can contact me from here"
+  },
+  "404": {
+    "h1": "404, page not found"
+  }
+}
+```
+Dynamic textual content must be in these files. One of them will be load with the page according to your current language.
+
+#### Call textual content in HTML
+
+The content is called in HTML this way :
+```html
+<h1><?php print_r($lang_array['home']['h1']); ?></h1>
+```
+Use the .json file in your way according to your project.
 
 Thank you ! :thumbsup:

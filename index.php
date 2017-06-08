@@ -4,13 +4,12 @@ session_start();
 $locallang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 
 function setLang($lang) {
+	$_SESSION['lang'] = $lang;
 	switch ($lang) {
 	case "en":
-		$_SESSION['lang'] = $lang;
 		$lang_file = file_get_contents('lang/en.json');
 		break;
 	case "fr":
-		$_SESSION['lang'] = $lang;
 		$lang_file = file_get_contents('lang/fr.json');
 			break;
 	default:
@@ -47,12 +46,6 @@ default:
 $title = $lang_array['titles'][$page];
 
 include 'views/partials/head.php';
-if ($page != 'admin') {
-include 'views/partials/header.php';
-}
 include 'views/pages/'.$page.'.php';
-if ($page != 'admin' && $page != 'histoire') {
-include 'views/partials/footer.php';
-}
 include 'views/partials/foot.php';
 ?>
