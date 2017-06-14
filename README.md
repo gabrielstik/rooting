@@ -80,6 +80,11 @@ _**Example :** 'mywebsite.com/articles/make-our-planet-great-again', $q is 'arti
 To add a rooting page, add a **case** in that **switch**.
 **$page** will be the name of your **$page.php**. _Note than **$page** can be **$q**._
 
+### MySQL config file
+
+`/config.php` is the config file for database.
+Replace host, name, user & pass.
+
 ### Languages files rooting
 
 #### In index.php
