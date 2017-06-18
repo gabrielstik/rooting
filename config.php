@@ -10,6 +10,6 @@ try {
   $pdo->exec("SET CHARACTER SET utf8");
 }
 catch (Exception $e) {
-  echo('Could not connect to database')
+  echo('Could not connect to database, please verify config.php')
 }
 ?>
